@@ -6,5 +6,5 @@ This apps Tracks habit and includes modern UI .
 2.Tailwind-CSS<br>
 3.Zustand for State Management<br>
 
-<h1><Author:></h1>
+<h1>Author:</h1>
 Made for understanding of State Management using Zustand and Modern UI practices.
