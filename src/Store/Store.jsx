@@ -1,3 +1,6 @@
 import { create } from 'zustand'
 
-const useBear = create(set => {})
+const useBear = create((set) => ({
+ 
+}))
+
