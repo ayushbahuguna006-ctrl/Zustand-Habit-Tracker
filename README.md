@@ -10,7 +10,7 @@ Made for understanding of State Management using Zustand
 
 <h1>My Learnings:</h1>
 
-<h3>#Using Zustand :</h3><br>
+<h3>#Using Zustand :</h3>
       1.Helps in reduced boiler plate ,avoid wrapping unlike context API.<br>
       2.Saves time,Efficient to use and creates a store which can directly be accessed by any component.<br>
 <br>
