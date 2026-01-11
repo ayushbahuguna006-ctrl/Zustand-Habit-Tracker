@@ -21,8 +21,8 @@ function App() {
 
   return (
     <>
-    <div className='min-h-screen flex flex-col items-center justify-evenly font-mono'> <button className='border-2 border-black px-0.5 rounded-md active:w-20 hover:bg-black hover:text-white font-mono' onClick={()=>{handleincrease(7)}}>Increase</button><button className='border-2 active:w-20 border-black rounded-md px-0.5 hover:bg-black hover:text-white'onClick={()=>{handledecrease()}}>Decrease</button> 
-     <p>count is {count}</p>
+    <div className='min-h-screen flex flex-col bg-black items-center justify-evenly font-mono'> <button className='border-2 border-black px-0.5 bg-white rounded-md active:w-20 hover:bg-white hover:text-blue-500 font-mono' onClick={()=>{handleincrease(7)}}>Increase</button><button className='border-2 active:w-20 border-black rounded-md px-0.5 hover:bg-white bg-white hover:text-blue-500'onClick={()=>{handledecrease()}}>Decrease</button> 
+     <p>count is <h1 className='text-center text-2xl text-red-500 font-bold'>{count}</h1></p>
     </div>
 
    
