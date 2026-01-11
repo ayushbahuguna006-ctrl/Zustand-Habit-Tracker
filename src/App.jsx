@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import { usecount } from './Store/Store'
 
+// Functioning added 
+
 function App() {
   const {count,inccount,deccount}=usecount()
   const handledecrease=()=>{
