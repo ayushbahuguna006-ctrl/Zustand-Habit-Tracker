@@ -4,7 +4,6 @@ import { usecount } from './Store/Store'
 
 function App() {
   const {count,inccount,deccount}=usecount()
-  // const
   const handledecrease=()=>{
     if(count>0){
       deccount(1)
