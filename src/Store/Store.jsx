@@ -1,6 +1,12 @@
 import { create } from 'zustand'
 
-const useBear = create((set) => ({
- 
+export const usecount = create((set) => ({
+ count:0,
+ inccount:(num)=>{
+    set((state)=>({count:state.count+num}))
+ },
+ deccount:(num)=>{
+    set((state)=>({count:state.count-num}))
+ }
 }))
 
